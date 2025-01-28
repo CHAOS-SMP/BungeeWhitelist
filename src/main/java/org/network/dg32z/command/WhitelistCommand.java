@@ -16,7 +16,7 @@ public final class WhitelistCommand extends Command implements TabExecutor {
     private final BungeeWhitelist plugin;
 
     public WhitelistCommand(final BungeeWhitelist plugin) {
-        super("whitelist");
+        super("gwhitelist");
         this.plugin = plugin;
     }
 
